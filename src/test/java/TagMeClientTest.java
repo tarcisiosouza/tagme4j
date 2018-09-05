@@ -20,9 +20,8 @@ public class TagMeClientTest {
     private static TagMeClient tagMeClient;
 
     @BeforeClass
-    public static void setUp() {
-        String apiKey = "84fbb046-5277-4575-a6b6-3530af2f11ea-843339462";
-
+    public static void setUp(String apiKey) {
+        
         tagMeClient = new TagMeClient(apiKey);
     }
 
